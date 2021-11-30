@@ -1,0 +1,31 @@
+
+Function
+int main()
+{
+string operation;
+
+Variable (numbers)
+double n1, n2;
+
+Input
+cout<<"Enter expression(+, -, *, /): ";
+cin >> operation>>n1>>n2;
+Statement    if(operation == "+")
+    {
+Output        cout<<"Expression: "<<n1<<" + "<<n2<<" = "<<(n1+n2)<<endl;
+    }
+    else if(operation == "-")
+    {
+Output        cout<<"Expression: "<<n1<<" - "<<n2<<" = "<<(n1-n2)<<endl;
+    }
+    else if(operation == "*")
+    {
+Output       cout<<"Expression: "<<n1<<" * "<<n2<<" = "<<(n1*n2)<<endl;
+    }
+    else if(operation == "/")
+    {
+Output        cout<<"Expression: "<<n1<<" / "<<n2<<" = "<<(n1/n2)<<endl;
+    }
+return 0;
+}
+Result: Expression based on the format instructed in the exercise utilizing addition, subtraction, multiplication, and division.
